@@ -19,7 +19,7 @@ mes = connec.recv(1024).decode()
 print(mes)
 
 
-print('Sending. . .
+print('Sending. . .')
 connec.send(mes.encode())
 
 print('Turning off the client')
